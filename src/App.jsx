@@ -4,15 +4,24 @@ import Body from './components/Body';
 import Head from './components/Head';
 import { Provider } from 'react-redux';
 import store from './components/utils/store';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+const appRouter = createBrowserRouter([{
+
+  path: "/",
+  element: <Body/>,
+  children: [
+    
+  ]
+}])
 function App() {
 
 
   return (
     <>
-    <Provider store={store}>
+    <Provider store = {store}>
   <div>
    <Head/>
-   <Body/>
+   <RouterProvider router = {appRouter}/>
 
    {/**
     * 

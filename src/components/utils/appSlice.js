@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const appSlice = createSlice({
-    name: "app", // Comma was missing here
+    name: "app", 
     initialState: {
         isMenuOpen: true
     },
