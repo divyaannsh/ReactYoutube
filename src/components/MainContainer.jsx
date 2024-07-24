@@ -1,14 +1,14 @@
-import React from 'react'
-import Buttonlist from './Buttonlist'
-import Videocontainer from './Videocontainer'
+import React from 'react';
+import Buttonlist from './Buttonlist';
+import Videocontainer from './Videocontainer';
 
 const MainContainer = () => {
   return (
-    <div className='col-span-10'>
-      <Buttonlist/>
-      <Videocontainer/>
+    <div className='flex-1 p-4 sm:p-8'>
+      <Buttonlist />
+      <Videocontainer />
     </div>
-  )
-}
+  );
+};
 
-export default MainContainer
+export default MainContainer;

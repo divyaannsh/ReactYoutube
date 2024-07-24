@@ -14,8 +14,7 @@ const Buttonlist = () => {
     <Button name = " Movies"/>
     <Button name= "Songs"/>
     <Button name = "Live"/>
-    <Button name = " Movies"/>
-    <Button name= "Songs"/>
+    
     
    
     </div>
